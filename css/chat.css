@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.2;
+    /* outline: 1px solid lightblue; */
+}
+.chatAi{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.chatAi.on{
+    display: none;
+}
+
+.chatAi img{
+    display: flex;
+    padding: 50% 25% 10% 25%;
+    justify-content: center;
+}
+.typing .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:#144B61;
+    /* opacity: 0.5; */
+    font-weight: bold;
+}
+
+
+
+
+
+.out{
+    /* display: flex; */
+    display: none;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+}
+.first{
+    display: flex;
+    padding: 10% 5% 0 5%;
+}
