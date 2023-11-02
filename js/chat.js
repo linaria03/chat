@@ -1,4 +1,4 @@
-const content = "안녕하세요. 넷틴스입니다. \n 문의사항 있으시면 저를 눌러주세요."
+const content = "안녕하세요. 넷틴스입니다. \n 1:1 대화 시작하기"
 const text = document.querySelector(".text")
 let index = 0;
 
@@ -18,6 +18,6 @@ function typing(){
 setInterval(typing, 100)
 
 // 💛 msg
-$(".chatAi").mouseenter(function () {
+$(".chatAi").click(function () {
     $('.chatAi').addclass('on');  
   });
